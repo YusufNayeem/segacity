@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IUB Student Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>IUB Portal</h2>
+      <nav>
+        <ul>
+          <li class="active"><a href="#">Dashboard</a></li>
+          <li><a href="#">Registration</a></li>
+          <li><a href="#">Registration Bill</a></li>
+          <li><a href="#">Faculty Evaluation</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Sign Out</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <main class="main">
+      <header class="header">
+        <h1>Welcome, Yusuf!</h1>
+        <img src="https://cdn-icons-png.flaticon.com/512/147/147144.png" class="avatar" alt="avatar" />
+      </header>
+      <section class="stats">
+        <div class="card blue"><p>Credits Done</p><h3>88</h3></div>
+        <div class="card orange"><p>Credits Left</p><h3>32</h3></div>
+        <div class="card teal"><p>CGPA</p><h3>3.33</h3></div>
+        <div class="card green"><p>Major Credits</p><h3>40</h3></div>
+        <div class="card lightgreen"><p>Minor Credits</p><h3>15</h3></div>
+      </section>
+      <section class="courses">
+        <h2>Semester Courses</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Code</th><th>Name</th><th>Time</th><th>Attendance</th><th>Grade</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>CSE210</td><td>Electronics I</td><td>MW 08:30</td><td>12/13</td><td><span class="badge z">Z</span></td></tr>
+            <tr><td>CSE210L</td><td>Labwork</td><td>Th 11:20:50</td><td>5/7</td><td><span class="badge z">Z</span></td></tr>
+            <tr><td>CSE309</td><td>Web & Internet</td><td>MW 16:20</td><td>16/17</td><td><span class="badge a">A</span></td></tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="suggested">
+        <h2>Suggested Courses</h2>
+        <div class="suggested-list">
+          <div class="course light-yellow"><h3>ECO 201</h3><p>Microeconomics</p><button>Add</button></div>
+          <div class="course light-blue"><h3>ENG 102</h3><p>Academic Writing</p><button>Add</button></div>
+          <div class="course light-orange"><h3>CSE 405</h3><p>AI</p><button>Add</button></div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
